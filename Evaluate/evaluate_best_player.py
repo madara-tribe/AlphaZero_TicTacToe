@@ -3,8 +3,8 @@
 # ====================
 
 from Environment.state import State
-from evaluate.vs_algs import random_action, alpha_beta_action, advanced_mcts_action
-from strategy.NN_MonteCarlo import select_action_by_pv_mcts
+from Evaluate.vs_algs import random_action, alpha_beta_action, advanced_mcts_action
+from Strategy.NN_MonteCarlo import select_action_by_pv_mcts
 from tensorflow.keras.models import load_model
 from tensorflow.keras import backend as K
 from pathlib import Path
