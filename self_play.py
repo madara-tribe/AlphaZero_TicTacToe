@@ -3,7 +3,7 @@
 # ====================
 
 from Environment.state import State
-from strategy.NN_MonteCarlo import pv_mcts_scores as pv_mcts_step_policy_score
+from Strategy.NN_MonteCarlo import pv_mcts_scores as pv_mcts_step_policy_score
 from Agent.dual_network import DN_OUTPUT_SIZE
 from datetime import datetime
 from tensorflow.keras.models import load_model
