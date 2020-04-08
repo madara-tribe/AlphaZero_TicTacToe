@@ -6,7 +6,7 @@ from Agent.dual_network import dual_network
 from self_play import self_play
 from train_dual_network import create_latest_player
 from eval_for_update_player import total_episode_play
-from evaluate.evaluate_best_player import evaluate_best_player
+from Evaluate.evaluate_best_player import evaluate_best_player
 train_network = create_latest_player()
 
 # デュアルネットワークの作成
